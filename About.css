@@ -22,6 +22,9 @@ ul{
 	background-repeat: no-repeat;
 }
 
+.navbar{
+	background-color: #2f4f4f;
+}
 .header .navbar{
 	width: 100%;
 	height: 80px;
@@ -80,25 +83,124 @@ ul{
 	opacity: .3;
 }
 
-.header .banner{
+.education {
 	position: absolute;
 	top: 12%;
 	left: 0;
 	color: #2f4f4f;
 }
 
-.header .banner .app-text h1{
+.education h1{
 	font-size: 40px;
 	position: relative;
 	margin-top: 10px;
 	font-weight: 700;
 	line-height: 1.3;
-	padding-left: 60px;
+	padding-left: 400px;
 	color: #2f4f4f;
 }
+
+.education p{
+	font-size: 17px;
+	position: relative;
+	font-weight: 700;
+	line-height: 1.3;
+	padding-left: 60px;
+	padding-right: 44px;
+	color: #000;
+	border: 2px solid black;
+	border-radius: 5px;
+	
+}
+.aspirations {
+	position: absolute;
+	top: 12%;
+	left: 0;
+	color: #2f4f4f;
+}
+
+.aspirations h1{
+	font-size: 40px;
+	position: relative;
+	margin-top: 180px;
+	font-weight: 700;
+	line-height: 1.3;
+	padding-left: 400px;
+	color: #2f4f4f;
+}
+
+.aspirations p{
+	font-size: 17px;
+	position: relative;
+	font-weight: 700;
+	line-height: 1.3;
+	padding-left: 60px;
+	padding-right: 29px;
+	color: #000;
+	border: 2px solid black;
+	border-radius: 5px;	
+}
+
+.hobbies {
+	position: absolute;
+	top: 12%;
+	left: 0;
+	color: #2f4f4f;
+}
+
+.hobbies h1{
+	font-size: 40px;
+	position: relative;
+	margin-top: 360px;
+	font-weight: 700;
+	line-height: 1.3;
+	padding-left: 400px;
+	color: #2f4f4f;
+}
+
+.hobbies p{
+	font-size: 17px;
+	position: relative;
+	font-weight: 700;
+	line-height: 1.3;
+	padding-left: 60px;
+	padding-right: 61px;
+	color: #000;
+	border: 2px solid black;
+	border-radius: 5px;
+
+}
+
 .photo {
 	margin-left:1300px;
 	position: absolute;
 	top:16%;
+
+}
+
+
+.education {
+	animation: transitionIn .65s;
+}
+.hobbies {
+	animation: transitionIn .65s;
+}
+.header {
+	animation: transitionIn .65s;
+}
+.photo {
+	animation: transitionIn .65s;
+}
+.banner {
+	animation: transitionIn .65s;
+}
+@keyframes transitionIn {
+	from {
+		opacity: .2;
+	}
+
+	to {
+		opacity: 1;
+	}
 
 }

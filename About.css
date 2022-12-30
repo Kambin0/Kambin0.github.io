@@ -16,14 +16,16 @@ ul{
 .header{
 	position: relative;
 	width: 100%;
-	height: 100vh;
+	height: 220vh;
 	background-color: #f5f5f5;
 	background-size: cover;
 	background-repeat: no-repeat;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 .navbar{
-	background-color: #2f4f4f;
+	background-color: #2e8b57;
 }
 .header .navbar{
 	width: 100%;
@@ -87,17 +89,16 @@ ul{
 	position: absolute;
 	top: 12%;
 	left: 0;
-	color: #2f4f4f;
 }
 
 .education h1{
-	font-size: 40px;
+	font-size: 50px;
 	position: relative;
-	margin-top: 10px;
+	margin-top: 80px;
 	font-weight: 700;
 	line-height: 1.3;
 	padding-left: 400px;
-	color: #2f4f4f;
+	color: #2e8b57;
 }
 
 .education p{
@@ -116,17 +117,16 @@ ul{
 	position: absolute;
 	top: 12%;
 	left: 0;
-	color: #2f4f4f;
 }
 
 .aspirations h1{
-	font-size: 40px;
+	font-size: 50px;
 	position: relative;
-	margin-top: 180px;
+	margin-top: 300px;
 	font-weight: 700;
 	line-height: 1.3;
 	padding-left: 400px;
-	color: #2f4f4f;
+	color: #2e8b57;
 }
 
 .aspirations p{
@@ -145,17 +145,16 @@ ul{
 	position: absolute;
 	top: 12%;
 	left: 0;
-	color: #2f4f4f;
 }
 
 .hobbies h1{
-	font-size: 40px;
+	font-size: 50px;
 	position: relative;
-	margin-top: 360px;
+	margin-top: 540px;
 	font-weight: 700;
 	line-height: 1.3;
 	padding-left: 400px;
-	color: #2f4f4f;
+	color: #2e8b57;
 }
 
 .hobbies p{
@@ -164,35 +163,72 @@ ul{
 	font-weight: 700;
 	line-height: 1.3;
 	padding-left: 60px;
-	padding-right: 61px;
+	padding-right: 57px;
 	color: #000;
 	border: 2px solid black;
 	border-radius: 5px;
-
 }
 
 .photo {
 	margin-left:1300px;
 	position: absolute;
 	top:16%;
-
+	border: 2px solid black;
+	border-radius: 5px;
+	border-bottom: none;
 }
-
+.zion  {
+	margin-left: 80px;
+	position: absolute;
+	top: 100%;
+	border: 2px solid black;
+	border-radius: 5px;
+	border-bottom: none;
+}
+.olympic1  {
+	margin-left: 1410px;
+	position: absolute;
+	top: 100%;
+	border: 2px solid black;
+	border-radius: 5px;
+	border-bottom: none;
+}
+.olympic2  {
+	margin-left: 620px;
+	position: absolute;
+	top: 116%;
+	border: 2px solid black;
+	border-radius: 5px;
+	border-bottom: none;
+}
+.arches  {
+	margin-left: 970px;
+	position: absolute;
+	top: 163%;
+	border: 2px solid black;
+	border-radius: 5px;
+	border-bottom: none;
+}
+.deer  {
+	margin-left: 220px;
+	position: absolute;
+	top: 163%;
+	border: 2px solid black;
+	border-radius: 5px;
+	border-bottom: none;
+}
 
 .education {
-	animation: transitionIn .65s;
+	animation: transitionIn .55s;
 }
 .hobbies {
-	animation: transitionIn .65s;
-}
-.header {
-	animation: transitionIn .65s;
+	animation: transitionIn .55s;
 }
 .photo {
-	animation: transitionIn .65s;
+	animation: transitionIn .55s;
 }
 .banner {
-	animation: transitionIn .65s;
+	animation: transitionIn .55s;
 }
 @keyframes transitionIn {
 	from {

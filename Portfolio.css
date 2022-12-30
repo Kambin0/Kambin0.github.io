@@ -23,7 +23,7 @@ ul{
 }
 
 .navbar{
-	background-color: #2f4f4f;
+	background-color: #2e8b57;
 }
 
 .header .navbar{
@@ -100,18 +100,26 @@ ul{
 	padding-left: 60px;
 	color: #2f4f4f;
 }
-.photo {
-	margin-left:1300px;
+.project1 {
 	position: absolute;
-	top:16%;
-
+	top: 12%;
+	left: 0;
+}
+.project1 h1{
+	font-size: 25px;
+	position: relative;
+	margin-top: 20px;
+	font-weight: 700;
+	line-height: 1.3;
+	padding-left: 30px;
+	color: #2e8b57;
 }
 
-.header {
-	animation: transitionIn .65s;
-}
 .banner {
-	animation: transitionIn .65s;
+	animation: transitionIn .55s;
+}
+.project1 {
+	animation: transitionIn .55s;
 }
 @keyframes transitionIn {
 	from {

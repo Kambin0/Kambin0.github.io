@@ -18,6 +18,12 @@ a,a:hover{
 ul{
 	list-style: none;
 }
+.navbar{
+	background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+}
+.header{
+	background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+}
 
 
 .navbar{
@@ -88,7 +94,9 @@ ul{
 	font-weight: 700;
 	line-height: 1.3;
 	padding-left: 400px;
-	color: #2e8b57;
+	background: -webkit-linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .education p{
@@ -116,7 +124,9 @@ ul{
 	font-weight: 700;
 	line-height: 1.3;
 	padding-left: 400px;
-	color: #2e8b57;
+	background: -webkit-linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .aspirations p{
@@ -144,7 +154,9 @@ ul{
 	font-weight: 700;
 	line-height: 1.3;
 	padding-left: 400px;
-	color: #2e8b57;
+	background: -webkit-linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .hobbies p{
@@ -232,6 +244,9 @@ ul{
 	animation: transitionIn .55s;
 }
 .education {
+	animation: transitionIn .55s;
+}
+.aspirations {
 	animation: transitionIn .55s;
 }
 .hobbies {

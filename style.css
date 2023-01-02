@@ -86,7 +86,9 @@ ul{
 }
 
 .app-text h1 span{
-	color: #2e8b57;
+	background: -webkit-linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-weight: 700;
 }
 
@@ -95,7 +97,7 @@ ul{
 	font-weight: 700;
 }
 
-.app-text .paperclip{
+.paperclip{
 	display: flex;
 	width: 100%;
 	position: relative;
@@ -107,13 +109,18 @@ ul{
 	transition: all .5s;
 }
 
-.app-text .paperclip a{
-	color: #2e8b57;
+.paperclip a{
+	color:#9ebd13;
 	cursor: pointer;
 }
 
-.navbar {
+
+
+.contact-info {
 	animation: transitionIn .65s;
+}
+.app-text {
+	animation: transitionIn 1.25s;
 }
  
 @keyframes transitionIn {

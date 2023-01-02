@@ -105,12 +105,14 @@ ul{
 }
 
 .app-text .paperclip a:hover{
-	color: #fff;
+	background: -webkit-linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	transition: all .5s;
 }
 
 .paperclip a{
-	color:#9ebd13;
+	color:#fff;
 	cursor: pointer;
 }
 

@@ -1,4 +1,3 @@
-
   img{
     width: 100%;
     height: auto;
@@ -171,60 +170,18 @@ ul{
 	border-radius: 5px;
 }
 
+.hobbies a{
+		background: -webkit-linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
 .photo {
 	margin-left: 1400px;
 	position: absolute;
 	margin-top:130px;
 	max-width:25%;
-	height: auto;
-	border: 2px solid black;
-	border-radius: 5px;
-}
-.zion  {
-	margin-left: 80px;
-	position: absolute;
-	margin-top: 900px;
-	max-width:18%;
-	height: auto;
-	border: 2px solid black;
-	border-radius: 5px;
-
-}
-.olympic1  {
-	margin-left: 1485px;
-	position: absolute;
-	margin-top: 900px;
-	max-width: 18%;
-	height: auto;
-	border: 2px solid black;
-	border-radius: 5px;
-
-}
-.olympic2  {
-	margin-left: 220px;
-	position: absolute;
-	margin-top: 1425px;
-	max-width: 35%;
-	height: auto;
-	border: 2px solid black;
-	border-radius: 5px;
-
-}
-.arches  {
-	margin-left: 970px;
-	position: absolute;
-	margin-top: 1425px;
-	max-width: 35%;
-	height: auto;
-	border: 2px solid black;
-	border-radius: 5px;
-
-}
-.deer  {
-	margin-left: 620px;
-	position: absolute;
-	margin-top: 967px;
-	max-width: 35%;
 	height: auto;
 	border: 2px solid black;
 	border-radius: 5px;

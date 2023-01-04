@@ -1,13 +1,21 @@
-.title {
+.title span {
 	font-family: 'Chivo', sans-serif;
 	font-size: 40px;
 	text-align: center;
 	margin-top: 15px;
-		background: -webkit-linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+	background: -webkit-linear-gradient(90deg, #9ebd13 0%, #008552 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 
 }
+.title {
+		font-family: 'Chivo', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+
 a,a:hover{
 	text-decoration: none;
 }
@@ -83,7 +91,7 @@ ul{
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
+
 .column {
   flex: 25%;
   max-width: 33.3%;
@@ -109,7 +117,7 @@ ul{
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
@@ -117,4 +125,20 @@ ul{
   }
 
 }
+
+@keyframes transitionIn {
+	from {
+		opacity: .2;
+	}
+
+	to {
+		opacity: 1;
+	}
+
+}
+
+.column img {
+	animation: transitionIn .55s;
+}
+
 

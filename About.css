@@ -194,6 +194,7 @@ ul{
 
 
 .photo {
+	float: right;
 	margin-left: auto;
 	position: absolute;
 	margin-top:130px;

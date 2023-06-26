@@ -160,6 +160,8 @@ ul{
     color: #000;
     border: none;
     border-radius: 5px;
+    overflow: hidden;
+    resize: none;
 }
 
 

@@ -82,35 +82,32 @@ ul{
 
 .education {
 	position: absolute;
-	margin-top: 25px;
 	left: 0;
 }
 
 .education h1{
 	font-size: 2.6vw;
 	position: relative;
-	margin-top: 90px;
+	margin-top: 50px;
 
 }
 .education h1 span{
 	font-size: 2.6vw;
 	position: relative;
-	margin-top: 90px;
 	font-weight: 700;
-	line-height: 1.3;
 	padding-left: 400px;
 	background: -webkit-linear-gradient(90deg, #9ebd13 0%, #008552 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
-.education p{
-	font-size: .95vw;
+.education textarea{
+	font-size: 1.1vw;
 	position: relative;
 	font-weight: 700;
 	line-height: 1.3;
-	padding-left: 60px;
-	padding-right: 44px;
+	padding-left: 30px;
+	padding-right: 30px;
 	color: #000;
 	border: 2px solid black;
 	border-radius: 5px;
@@ -118,16 +115,13 @@ ul{
 }
 .aspirations {
 	position: absolute;
-	margin-top: 20px;
 	left: 0;
 }
 
 .aspirations h1 span{
 	font-size: 2.6vw;
 	position: relative;
-	margin-top: 310px;
 	font-weight: 700;
-	line-height: 1.3;
 	padding-left: 400px;
 	background: -webkit-linear-gradient(90deg, #9ebd13 0%, #008552 100%);
 	-webkit-background-clip: text;
@@ -136,16 +130,16 @@ ul{
 .aspirations h1 {
 	font-size: 2.6vw;
 	position: relative;
-	margin-top: 310px;
+	margin-top: 260px;
 }
 
-.aspirations p{
-	font-size: .95vw;
+.aspirations textarea{
+	font-size: 1.1vw;
 	position: relative;
 	font-weight: 700;
 	line-height: 1.3;
-	padding-left: 60px;
-	padding-right: 29px;
+	padding-left: 30px;
+	padding-right: 30px;
 	color: #000;
 	border: 2px solid black;
 	border-radius: 5px;	
@@ -153,7 +147,6 @@ ul{
 
 .hobbies {
 	position: absolute;
-	margin-top: 20px;
 	left: 0;
 }
 
@@ -162,7 +155,6 @@ ul{
 	position: relative;
 	margin-top: 550px;
 	font-weight: 700;
-	line-height: 1.3;
 	padding-left: 400px;
 	background: -webkit-linear-gradient(90deg, #9ebd13 0%, #008552 100%);
 	-webkit-background-clip: text;
@@ -171,16 +163,16 @@ ul{
 .hobbies h1{
 	font-size: 2.6vw;
 	position: relative;
-	margin-top: 550px;
+	margin-top: 500px;
 }
 
-.hobbies p{
-	font-size: .95vw;
+.hobbies textarea{
+	font-size: 1.1vw;
 	position: relative;
 	font-weight: 700;
 	line-height: 1.3;
-	padding-left: 60px;
-	padding-right: 17px;
+	padding-left: 30px;
+	padding-right: 30px;
 	color: #000;
 	border: 2px solid black;
 	border-radius: 5px;

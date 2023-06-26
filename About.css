@@ -101,18 +101,6 @@ ul{
 	-webkit-text-fill-color: transparent;
 }
 
-.education textarea{
-	font-size: 1.1vw;
-	position: relative;
-	font-weight: 700;
-	line-height: 1.3;
-	padding-left: 30px;
-	padding-right: 30px;
-	color: #000;
-	border: 2px solid black;
-	border-radius: 5px;
-	
-}
 .aspirations {
 	position: absolute;
 	left: 0;
@@ -131,18 +119,6 @@ ul{
 	font-size: 2.6vw;
 	position: relative;
 	margin-top: 260px;
-}
-
-.aspirations textarea{
-	font-size: 1.1vw;
-	position: relative;
-	font-weight: 700;
-	line-height: 1.3;
-	padding-left: 30px;
-	padding-right: 30px;
-	color: #000;
-	border: 2px solid black;
-	border-radius: 5px;	
 }
 
 .hobbies {
@@ -166,22 +142,24 @@ ul{
 	margin-top: 500px;
 }
 
-.hobbies textarea{
-	font-size: 1.1vw;
-	position: relative;
-	font-weight: 700;
-	line-height: 1.3;
-	padding-left: 30px;
-	padding-right: 30px;
-	color: #000;
-	border: 2px solid black;
-	border-radius: 5px;
-}
-
 .hobbies a{
 		background: -webkit-linear-gradient(90deg, #9ebd13 0%, #008552 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.education textarea,
+.aspirations textarea,
+.hobbies textarea {
+    font-size: 1.1vw;
+    position: relative;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #000;
+    border: none;
+    border-radius: 5px;
 }
 
 

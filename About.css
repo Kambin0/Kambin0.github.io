@@ -162,6 +162,7 @@ ul{
     border-radius: 5px;
     overflow: hidden;
     resize: none;
+	background-color: transparent;
 }
 
 

@@ -3,7 +3,7 @@
 	font-size: 40px;
 	text-align: center;
 	margin-top: 15px;
-	background: -webkit-linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+	background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 
@@ -24,10 +24,10 @@ ul{
 	list-style: none;
 }
 .navbar{
-	background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+	background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 }
 .header{
-	background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+	background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 }
 
 

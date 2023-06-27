@@ -1,3 +1,24 @@
+        button{
+            cursor: pointer;
+            border: 1px solid #555;
+            text-align: center;
+            padding: 5px;
+            margin-left: 8px;
+            color:#fff;
+            background-color:#000;
+            float: left;
+        }
+    .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+        }
+        .dark{
+            background-color: #222;
+            color: #e6e6e6;
+            }
+
 .title span {
 	font-family: 'Chivo', sans-serif;
 	font-size: 40px;

@@ -34,7 +34,7 @@ ul{
 
 }
 .navbar  a{
-	color: #fff;
+	color: #000;
 	font-size: 30px;
 	margin-left: 50px;
 }
@@ -82,34 +82,40 @@ ul{
 
 .education {
 	position: absolute;
+	margin-top: 25px;
 	left: 0;
 }
 
 .education h1{
 	font-size: 2.6vw;
 	position: relative;
-	margin-top: 50px;
+	margin-top: 90px;
 
 }
 .education h1 span{
 	font-size: 2.6vw;
 	position: relative;
+	margin-top: 90px;
 	font-weight: 700;
+	line-height: 1.3;
 	padding-left: 400px;
-	background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%;
+	background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .aspirations {
 	position: absolute;
+	margin-top: 20px;
 	left: 0;
 }
 
 .aspirations h1 span{
 	font-size: 2.6vw;
 	position: relative;
+	margin-top: 310px;
 	font-weight: 700;
+	line-height: 1.3;
 	padding-left: 400px;
 	background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 	-webkit-background-clip: text;
@@ -118,11 +124,13 @@ ul{
 .aspirations h1 {
 	font-size: 2.6vw;
 	position: relative;
-	margin-top: 260px;
+	margin-top: 310px;
 }
+
 
 .hobbies {
 	position: absolute;
+	margin-top: 20px;
 	left: 0;
 }
 
@@ -131,21 +139,34 @@ ul{
 	position: relative;
 	margin-top: 550px;
 	font-weight: 700;
+	line-height: 1.3;
 	padding-left: 400px;
-	background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%;
+	background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 .hobbies h1{
 	font-size: 2.6vw;
 	position: relative;
-	margin-top: 500px;
+	margin-top: 550px;
 }
+
 
 .hobbies a{
 		background: -webkit-linear-gradient(90deg, #9ebd13 0%, #008552 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+
+.photo {
+	right: 50px;
+	position: absolute;
+	margin-top:130px;
+	max-width:25%;
+	height: auto;
+	border: 2px solid black;
+	border-radius: 5px;
 }
 
 .education textarea,
@@ -162,18 +183,8 @@ ul{
     border-radius: 5px;
     overflow: hidden;
     resize: none;
-	background-color: transparent;
+    background-color: transparent;
 }
-
-
-.photo {
-	right: 50px;
-	position: absolute;
-	margin-top:130px;
-	max-width:25%;
-	height: auto;
-	border: 2px solid black;
-	border-radius: 5px;
 
 }
 @keyframes transitionIn {

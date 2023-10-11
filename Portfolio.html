@@ -1,92 +1,201 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-       <title>Kamron Languido</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" type="text/css" href="portfolio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    </head>
-    
-    <body>
-        <div class="header position-relative">
-                    <div class="navbar row">
-                        <div class="menu col-6">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="About.html">About</a></li>
-                                <li><a href="photos.html">Photos</a></li>
-                                <li><a href="Portfolio.html">Portfolio</a></li>
-                            </ul>
-                        </div>
-                        <div class="contact-info col-6 text-end">
-                            <ul>
-                                <li><a href="#" class="phone-no">801-599-3496</a></li>
-                                <li><p>/</p></li>
-                                <li><a href="#" id="email"> kamlanguido@gmail.com</a></li>
-                            </ul>
-                        </div> 
-                    </div>
-        </div>
-
-        <div class="coursework">
-        <h1><span>Relevant Courses</span> 📝</h1>
-            <textarea rows="10" cols="100" name="usrtxt" wrap="hard">
-&#8226; Web Development - Learned and applied knowledge of HTML and CSS.
-
-&#8226; Scripting and Programming - Created a database roster transfer in C++.
-
-&#8226; Java Fundamentals - Designed Java classes and used object-oriented principles to develop software for business requirements.
-
-&#8226; Version Control - Worked in Git to track changes in a collaborative coding environment.
-
-&#8226; Data Management Applications - Worked in MySQL to develop and modify schemas, databases, and tables.
-
-&#8226; Advanced Data Management - Learned to extract and analyze raw data from a business perspective.
-
-&#8226; Discrete Math I & II - Analyzed algorithms and studied math structures.
-
-&#8226; Computer Architecture - Learned about computer systems, system design, performance, and efficiency. Worked in assembly-level code.
-
-&#8226; Network and Security - Studied components of a computer network, security, and mitigation techniques.
-
-&#8226; IT Leadership - Studied organizational structures and leadership styles specific to information technology in organizations.
-
-&#8226; Business of IT - Examined terminology, structures, and concepts of the business side of the IT infrastructure. This course earned the ITIL v4 certification.
-
-            </textarea>
-        </div>
-
-        <div class="button-container">
-                <button onclick="myFunction()">Toggle Dark Mode</button>
-        <div class="projects">
-
-            <h1><span> ✖️ </span><span><a href="https://github.com/Kambin0/Mortgage-Calculator/tree/main" target="_blank">  Mortgage Calculator</a></span> ➗</h1>
-            <textarea rows="8" cols="50" name="usrtxt" wrap="hard">
-            This is a practical project I created using Java to practice and apply my skills. The calculator takes user data (principal, interest, and loan term) and calculates the users monthly mortgage payment. The results are clear and simple to understand. The code is cleanly written and organized to provide readability for other developers.</textarea>
-
-            <h1><span> 💵 </span><span><a href="https://github.com/Kambin0/Kearmi.Sales" target="_blank">  Kearmi Sales Databse</a></span> 💵</h1>
-            <textarea rows="8" cols="50" name="usrtxt" wrap="hard">
-            I have designed and implemented this database system with the purpose of providing support to a friend's online reselling business. The primary aim of this system is to optimize efficiency and provide data to enhance decision-making. By incorporating multiple tables for customer information, product details, supplier records, and sales data, the database effectively handles data storage and analysis. This database provides information for business strategies to drive success. </textarea>
-
-            <h2> Future projects will be inserted below.</h2>
-        </div>
-                </div>
-
-    <script>
-        function myFunction() {
-            let element = document.body;
-            element.classList.toggle("dark");
+        button{
+            cursor: pointer;
+            border: 1px solid #555;
+            text-align: center;
+           
+            margin-left: 8px;
+            color:#fff;
+            background-color:#000;
+            float: left;
         }
-    </script>
+    .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+        }
+        .dark{
+            background-color: #222;
+            color: #e6e6e6;
+            }
 
-  
+.title span {
+	font-family: 'Chivo', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 15px;
+	background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 
-</body>
-</html>
+}
+.title {
+		font-family: 'Chivo', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 15px;
+}
 
 
+a,a:hover{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+.navbar{
+	background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+.header{
+	background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+
+.navbar{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #2e8b57;
+}
+
+
+}
+.navbar  a{
+	color: #fff;
+	font-size: 30px;
+	margin-left: 50px;
+}
+.navbar .menu ul{
+	margin-left: 165px;
+}
+
+.navbar .menu ul li{
+	display: inline-block;
+	align-items: center;
+    margin-inline: 10px;
+}
+
+.navbar .menu ul li a{
+	color: #fff;
+    font-size: 1vmax;
+	font-weight: 500;
+	letter-spacing: 1px;
+
+}
+.navbar .menu ul li a:hover{
+	color: #000;
+}
+
+.contact-info ul li{
+	display: inline-block;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.contact-info ul li a{
+	color: #fff;
+	font-size: 1vmax;
+	transition: all 0.3s;
+}
+
+
+.contact-info ul li a:hover{
+	color: #000;
+}
+
+        .projects {
+            width: 100%;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .projects h1 a{
+            font-size: 34px;
+            background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+        }
+
+        .projects a:hover{
+	color: #fff;
+	transition: all .5s;
+}
+		.projects h2 {
+			font-size: 28px;
+			background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+
+		}
+
+
+        .projects textarea {
+            font-size: 18px;
+            color: #7285a5;
+            font-weight: 700;
+            line-height: 1.3;
+            border: double;
+            border-radius: 5px;
+            overflow: hidden;
+            resize: none;
+            background-color: transparent;
+            width: 100%;
+            height: 150px;
+            padding: 10px;
+        }
+
+        .coursework {
+            width: 50%;
+            float: right;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .coursework h1 {
+            font-size: 34px;
+            color: #182848;
+        }
+        .coursework h1 span{
+            font-size: 34px;
+            background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+        }
+
+        .coursework textarea {
+            font-size: 18px;
+            color: #7285a5;
+            font-weight: 700;
+            line-height: 1.3;
+            border: double;
+            border-radius: 5px;
+            overflow: hidden;
+            resize: none;
+            background-color: transparent;
+            width: 100%;
+            height: 720px;
+            padding: 10px;
+        }
+
+
+
+
+
+.banner {
+	animation: transitionIn .55s;
+}
+.project1 {
+	animation: transitionIn .55s;
+}
+@keyframes transitionIn {
+	from {
+		opacity: .2;
+	}
+
+	to {
+		opacity: 1;
+	}
+
+}

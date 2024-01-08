@@ -104,25 +104,25 @@ ul{
 	color: #000;
 }
 
-        .projects {
+        .project1 {
             width: 100%;
             float: left;
             padding: 20px;
             box-sizing: border-box;
         }
 
-        .projects h1 a{
+        .project1 h1 a{
             font-size: 34px;
             background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
         }
 
-        .projects a:hover{
+        .project1 a:hover{
 	color: #fff;
 	transition: all .5s;
 }
-		.projects h2 {
+		.project1 h2 {
 			font-size: 28px;
 			background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
 			-webkit-background-clip: text;
@@ -131,7 +131,7 @@ ul{
 		}
 
 
-        .projects textarea {
+        .project1 textarea {
             font-size: 18px;
             color: #7285a5;
             font-weight: 700;
@@ -142,7 +142,88 @@ ul{
             resize: none;
             background-color: transparent;
             width: 100%;
-            height: 190px;
+            height: 205px;
+            padding: 10px;
+        }
+
+
+        .project2 {
+            width: 100%;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .project2 h1 a{
+            font-size: 34px;
+            background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .project2 a:hover{
+    color: #fff;
+    transition: all .5s;
+}
+        .project2 h2 {
+            font-size: 28px;
+            background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+            .project2 textarea {
+            font-size: 18px;
+            color: #7285a5;
+            font-weight: 700;
+            line-height: 1.3;
+            border: double;
+            border-radius: 5px;
+            overflow: hidden;
+            resize: none;
+            background-color: transparent;
+            width: 100%;
+            height: 136px;
+            padding: 10px;
+        }
+
+           .project3 {
+            width: 100%;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .project3 h1 a{
+            font-size: 34px;
+            background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .project3 a:hover{
+    color: #fff;
+    transition: all .5s;
+}
+        .project3 h2 {
+            font-size: 28px;
+            background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+            .project3 textarea {
+            font-size: 18px;
+            color: #7285a5;
+            font-weight: 700;
+            line-height: 1.3;
+            border: double;
+            border-radius: 5px;
+            overflow: hidden;
+            resize: none;
+            background-color: transparent;
+            width: 100%;
+            height: 182px;
             padding: 10px;
         }
 
@@ -175,7 +256,7 @@ ul{
             resize: none;
             background-color: transparent;
             width: 100%;
-            height: 721px;
+            height: 500px;
             padding: 10px;
         }
 
